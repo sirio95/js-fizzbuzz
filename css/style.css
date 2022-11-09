@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: #d12e79;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+#sub{
+    text-align: center;
+    padding-top: 20px;
+}
+#container{
+    height:auto;
+    width: 80%;
+    margin: 5% auto;
+    background-color: cadetblue;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 9px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    padding: 3% 0;
+    display:inline-block;
+}
+
+.normal{
+    background-color: #2ed186;
+   
+}
+
+.fizz{
+    background-color: #862ed1;
+    
+}
+
+.buzz{
+    background-color: #d1862e;
+}
+
+.fizzbuzz{
+    background-color: #cbd12e;
+}
+
+
+/* Effetti Hover */
+.fizz:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR7u6QiMITdlQbtcvoFUeYm1e3oAf2dseqKg&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.1);
+    border-radius: 50%;
+    box-shadow: 2px 2px #becade;
+}
+.buzz:hover{
+    background-image: url(https://www.focus.it/images/2021/10/21/zanzara-coreana_1020x680.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.1);
+    border-radius: 50%;
+    box-shadow: 2px 2px #becade;
+}
+.fizzbuzz:hover{
+    background-image: url(https://www.repstatic.it/content/nazionale/img/2021/07/27/123620044-bd473799-9dfe-47e0-a6dd-707ce52da8b4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.1);
+    border-radius: 50%;
+    color:red;
+    box-shadow: 2px 2px #becade;
+}
